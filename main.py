@@ -20,6 +20,10 @@ details = {
 #     bio : str   
 
 
+@app.get("/")
+def root():
+    return {"message": "WELCOME TO MY HNG TASK 1"}
+    
 
 
 @app.get("/user_info")
