@@ -7,7 +7,7 @@ app = FastAPI()
 details = {
     "slackUsername": "Nengi_Tammy",
     "backend": True,
-    "age": "21",
+    "age": 21,
     "bio": " I am an aspiring python developer who works with FatsAPI and Django"
     
 }
