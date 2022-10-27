@@ -22,7 +22,7 @@ details = {
 
 
 
-@app.get("/user_info")
+@app.get("/")
 def get_details():
     return details
     
